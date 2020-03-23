@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-go@v1
         with:
           go-version: 1.14
-        id: Release Build
+        id: Release
 
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2
