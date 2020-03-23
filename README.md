@@ -18,4 +18,4 @@ go run *.go -region eu-west-1 -tag Name -untagged
 ```
 
 ## Download:
-[https://github.com/alessandrolattao/aws-tagged-resource-finder/releases](https://github.com/alessandrolattao/aws-tagged-resource-finder/releases) 
+[https://github.com/alessandrolattao/aws-tagged-resource-finder/releases](https://github.com/alessandrolattao/aws-tagged-resource-finder/releases)
