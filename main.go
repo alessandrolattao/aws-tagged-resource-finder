@@ -66,10 +66,6 @@ func main() {
 			// analyze tags
 			tagFound := tagExists(resource.Tags, tagKeyFlag)
 
-			if tagFound {
-				fmt.Println("tag trovato in ")
-			}
-
 			// if the resource is tagged and I want untagged resource then skip
 			if tagFound && !*untaggedFlag {
 				continue
