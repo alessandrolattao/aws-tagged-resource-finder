@@ -1,6 +1,8 @@
 package main
 
-import "github.com/aws/aws-sdk-go/service/resourcegroupstaggingapi"
+import (
+	"github.com/aws/aws-sdk-go/service/resourcegroupstaggingapi"
+)
 
 // tagExists looks for tagKey between tags
 func tagExists(tags []*resourcegroupstaggingapi.Tag, tagKey *string) bool {

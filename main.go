@@ -67,12 +67,12 @@ func main() {
 			tagFound := tagExists(resource.Tags, tagKeyFlag)
 
 			// if the resource is tagged and I want untagged resource then skip
-			if tagFound && !*untaggedFlag {
+			if tagFound && *untaggedFlag {
 				continue
 			}
 
 			// if the resource is not tagged and I want tagged resource then skip
-			if !tagFound && *untaggedFlag {
+			if !tagFound && !*untaggedFlag {
 				continue
 			}
 
