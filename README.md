@@ -9,12 +9,12 @@ This software needs awscli to be configured first.
 
 Find resources with the tag Name in the eu-west-1 region
 ```bash
-go run *.go -region eu-west-1 -tag Name
+aws-tagged-resource-finder -region eu-west-1 -tag Name
 ```
 
 Find resources without the tag Name in the eu-west-1 region
 ```bash
-go run *.go -region eu-west-1 -tag Name -untagged
+aws-tagged-resource-finder -region eu-west-1 -tag Name -untagged
 ```
 
 ## Download:
