@@ -64,7 +64,11 @@ func main() {
 		for _, resource := range resourcesOutput.ResourceTagMappingList {
 
 			// analyze tags
-			tagFound := searchTag(resource.Tags, tagKeyFlag)
+			tagFound := tagExists(resource.Tags, tagKeyFlag)
+
+			if tagFound {
+				fmt.Println("tag trovato in ")
+			}
 
 			// if the resource is tagged and I want untagged resource then skip
 			if tagFound && !*untaggedFlag {
