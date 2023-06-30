@@ -1,5 +1,7 @@
-module github.com/alessandrolattao/aws-tagged-resource-finder
+module github.com/keivinonline/aws-tags
 
-go 1.14
+go 1.20
 
-require github.com/aws/aws-sdk-go v1.29.29
+require github.com/aws/aws-sdk-go v1.44.293
+
+require github.com/jmespath/go-jmespath v0.4.0 // indirect
