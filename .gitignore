@@ -12,3 +12,7 @@
 *.out
 
 aws-tagged-resource-finder
+
+# custom
+aws-tags
+**/*.bak
